@@ -1,2 +1,5 @@
-# u17_downloader
-Simple downloader for u17 comic
+# 有妖气下载器
+听闻有妖气要关站了，本脚本提供帐号主人可阅读漫画的下载
+
+需要自行填充download.py中第5行，以选择下载的章节
+需要自行填充download.py中第13行，以获取付费/vip章节的下载地址
