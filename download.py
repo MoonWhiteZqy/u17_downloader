@@ -28,7 +28,8 @@ def get_image_path(chapter_id):
 
 if __name__ == "__main__":
     cnt = 1
-    for id in idlist:
+    for i in range(cnt - 1, len(idlist)):
+        id = idlist[i]
         print("开始下载第" + cnt.__str__() + "章节")
         get_image_path(id)
         cnt += 1
